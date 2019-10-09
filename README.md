@@ -1,14 +1,70 @@
 # ext_storage
 
-A new flutter plugin project.
+ext_storage is minimal flutter plugin that provides external storage path and external public storage path.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+> **NOTE** This plugin is only supported Android.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+ExtStorage package calls Android native code, `Environment.getExternalStorageDirectory()` and `Environment.getExternalStoragePublicDirectory()`.
+
+| ExtStorage                                     | Andorid Native                                  |
+|------------------------------------------------|-------------------------------------------------|
+| ExtStorage.getExternalStorageDirectory()       | Environment.getExternalStorageDirectory()       |
+| ExtStorage.getExternalStoragePublicDirectory() | Environment.getExternalStoragePublicDirectory() |
+
+`ExtStorage.getExternalStoragePublicDirectory()` needs Public Directory Type argument same as native `getExternalStoragePublicDirectory()`.
+
+| ExtStorage                         | Android Native                      |
+|------------------------------------|-------------------------------------|
+| ExtStorage.DIRECTORY_MUSIC         | Environment.DIRECTORY_MUSIC         |
+| ExtStorage.DIRECTORY_PODCASTS      | Environment.DIRECTORY_PODCASTS      |
+| ExtStorage.DIRECTORY_RINGTONES     | Environment.DIRECTORY_RINGTONES     |
+| ExtStorage.DIRECTORY_ALARMS        | Environment.DIRECTORY_ALARMS        |
+| ExtStorage.DIRECTORY_NOTIFICATIONS | Environment.DIRECTORY_NOTIFICATIONS |
+| ExtStorage.DIRECTORY_PICTURES      | Environment.DIRECTORY_PICTURES      |
+| ExtStorage.DIRECTORY_MOVIES        | Environment.DIRECTORY_MOVIES        |
+| ExtStorage.DIRECTORY_DOWNLOADS     | Environment.DIRECTORY_DOWNLOADS     |
+| ExtStorage.DIRECTORY_DCIM          | Environment.DIRECTORY_DCIM          |
+| ExtStorage.DIRECTORY_DOCUMENTS     | Environment.DIRECTORY_DOCUMENTS     |
+
+## Installation
+
+Add `ext_storage` as a dipendency in your project `pubspeck.yaml`.
+
+```
+dependencies:
+  ext_storage:
+```
+
+and run the `flutter pub get` to install.
+
+## Usage
+
+First, you write import `ext_storage` package.
+
+```
+import 'package:ext_storage/ext_storage.dart';
+```
+
+And you can call two functions.
+
+```
+void _example1() async {
+  var path = await ExtStorage.getExternalStorageDirectory();
+  print(path);  // /storage/emulated/0
+}
+
+void _example2() async {
+  var path = await ExtStorage.getExternalStoragePublicDirectory(ExtStorage.DIRECTORY_PICTURES);
+  print(path);  // /storage/emulated/0/Pictures
+}
+```
+
+## Author
+
+yasukotelin
+
+## LICENCE
+
+MIT LICENCE
