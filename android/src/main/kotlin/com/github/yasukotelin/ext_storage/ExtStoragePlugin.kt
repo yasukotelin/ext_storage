@@ -1,5 +1,6 @@
 package com.github.yasukotelin.ext_storage
 
+import android.os.Environment
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
@@ -16,10 +17,12 @@ class ExtStoragePlugin: MethodCallHandler {
   }
 
   override fun onMethodCall(call: MethodCall, result: Result) {
-    if (call.method == "getPlatformVersion") {
-      result.success("Android ${android.os.Build.VERSION.RELEASE}")
-    } else {
-      result.notImplemented()
+    when (call.method) {
+      "getExternalStorageDirectory" ->
+        result.success(Environment.getExternalStorageDirectory().toString());
+      "getExternalStoragePublicDirectory" ->
+        result.success(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString());
+      else -> result.notImplemented()
     }
   }
 }
