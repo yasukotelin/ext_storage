@@ -32,7 +32,7 @@ ExtStorage package calls Android native code, `Environment.getExternalStorageDir
 
 Add `ext_storage` as a dipendency in your project `pubspeck.yaml`.
 
-```
+```yaml
 dependencies:
   ext_storage:
 ```
@@ -43,13 +43,13 @@ and run the `flutter pub get` to install.
 
 First, you write import `ext_storage` package.
 
-```
+```dart
 import 'package:ext_storage/ext_storage.dart';
 ```
 
 And you can call two functions.
 
-```
+```dart
 void _example1() async {
   var path = await ExtStorage.getExternalStorageDirectory();
   print(path);  // /storage/emulated/0
