@@ -20,8 +20,10 @@ class ExtStoragePlugin: MethodCallHandler {
     when (call.method) {
       "getExternalStorageDirectory" ->
         result.success(Environment.getExternalStorageDirectory().toString());
-      "getExternalStoragePublicDirectory" ->
-        result.success(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString());
+      "getExternalStoragePublicDirectory" -> {
+        val type = call.argument<String>("type")
+        result.success(Environment.getExternalStoragePublicDirectory(type).toString());
+      }
       else -> result.notImplemented()
     }
   }

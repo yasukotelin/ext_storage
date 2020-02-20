@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ext_storage.iml" filepath="$PROJECT_DIR$/ext_storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ext_storage.iml" filepath="$PROJECT_DIR$/ext_storage.iml" group="ext_storage" />
     </modules>
   </component>
 </project>

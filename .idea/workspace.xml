@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e3c165-4e1b-4154-a0d3-92400b9b29c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7be1cca0-b14c-47ff-be2a-a797201b07f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/github/yasukotelin/ext_storage/ExtStoragePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/github/yasukotelin/ext_storage/ExtStoragePlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext_storage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext_storage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ext_storage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ext_storage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ext_storage_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/ext_storage_test.dart" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +32,12 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_29" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="7.3_Foldable_API_29" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -35,44 +46,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/ext_storage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ext_storage_test.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/main/kotlin/com/github/yasukotelin/ext_storage/ExtStoragePlugin.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <element signature="e#44#336#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,25 +55,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/android/src/main/kotlin/com/github/yasukotelin/ext_storage/ExtStoragePlugin.kt" />
-        <option value="$PROJECT_DIR$/lib/ext_storage.dart" />
-        <option value="$PROJECT_DIR$/test/ext_storage_test.dart" />
+        <option value="$PROJECT_DIR$/example/lib/main.dart" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,44 +79,33 @@
             <path>
               <item name="ext_storage" type="b2602c69:ProjectViewProjectNode" />
               <item name="ext_storage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ext_storage" type="b2602c69:ProjectViewProjectNode" />
               <item name="ext_storage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ext_storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ext_storage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="ext_storage" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ext_storage" type="b2602c69:ProjectViewProjectNode" />
               <item name="ext_storage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ext_storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ext_storage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -180,19 +138,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="93e3c165-4e1b-4154-a0d3-92400b9b29c4" name="Default Changelist" comment="" />
-      <created>1570597102145</created>
+      <changelist id="7be1cca0-b14c-47ff-be2a-a797201b07f7" name="Default Changelist" comment="" />
+      <created>1582193589817</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570597102145</updated>
+      <updated>1582193589817</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.20415778" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.22161172" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -202,50 +159,61 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Dart Analysis" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Dart Analysis" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32936078" />
+      <window_info anchor="bottom" id="Build" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Flutter Inspector" />
       <window_info anchor="right" id="Flutter Outline" />
       <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Flutter Performance" weight="0.32967034" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/src/main/kotlin/com/github/yasukotelin/ext_storage/ExtStoragePlugin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#44#336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ext_storage_test.dart">
+    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="289">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/kotlin/com/github/yasukotelin/ext_storage/ExtStoragePlugin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#44#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ext_storage.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>

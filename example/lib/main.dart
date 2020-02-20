@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:ext_storage/ext_storage.dart';
+import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 
 void main() => runApp(MyApp());
@@ -110,7 +110,7 @@ class _MyAppState extends State<MyApp> {
         break;
       case "ExtStorage.getExternalStoragePublicDirectory(ExtStorage.DIRECTORY_PICTURES)":
         _path = await ExtStorage.getExternalStoragePublicDirectory(
-            ExtStorage.DIRECTORY_PICTURES);
+            ExtStorage.DIRECTORY_DOWNLOADS);
         break;
       default:
         _path = "";
