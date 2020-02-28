@@ -110,7 +110,8 @@ class _MyAppState extends State<MyApp> {
         break;
       case "ExtStorage.getExternalStoragePublicDirectory(ExtStorage.DIRECTORY_PICTURES)":
         _path = await ExtStorage.getExternalStoragePublicDirectory(
-            ExtStorage.DIRECTORY_DOWNLOADS);
+            ExtStorage.DIRECTORY_PICTURES);
+        print(_path);
         break;
       default:
         _path = "";
