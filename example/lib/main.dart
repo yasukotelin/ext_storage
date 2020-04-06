@@ -28,7 +28,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   Future<String> _getPath() {
     return ExtStorage.getExternalStoragePublicDirectory(
-        ExtStorage.DIRECTORY_PICTURES);
+        ExtStorage.DIRECTORY_DOWNLOADS);
   }
 
   @override

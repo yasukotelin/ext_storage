@@ -27,6 +27,8 @@ ExtStorage package calls Android native code, `Environment.getExternalStorageDir
 | ExtStorage.DIRECTORY_DOWNLOADS     | Environment.DIRECTORY_DOWNLOADS     |
 | ExtStorage.DIRECTORY_DCIM          | Environment.DIRECTORY_DCIM          |
 | ExtStorage.DIRECTORY_DOCUMENTS     | Environment.DIRECTORY_DOCUMENTS     |
+| ExtStorage.DIRECTORY_SCREENSHOTS   | Environment.DIRECTORY_SCREENSHOTS   |
+| ExtStorage.DIRECTORY_AUDIOBOOKS    | Environment.DIRECTORY_AUDIOBOOKS    |
 
 ## Installation
 

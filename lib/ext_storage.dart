@@ -20,11 +20,15 @@ class ExtStorage {
 
   static final String DIRECTORY_MOVIES = "Movies";
 
-  static final String DIRECTORY_DOWNLOADS = "Downloads";
+  static final String DIRECTORY_DOWNLOADS = "Download";
 
   static final String DIRECTORY_DCIM = "DCIM";
 
   static final String DIRECTORY_DOCUMENTS = "Documents";
+
+  static final String DIRECTORY_SCREENSHOTS = "Screenshots";
+
+  static final String DIRECTORY_AUDIOBOOKS = "Audiobooks";
 
   static Future<String> getExternalStorageDirectory() async {
     if (!Platform.isAndroid) {
