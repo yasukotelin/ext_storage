@@ -2,6 +2,8 @@
 
 ext_storage is minimal flutter plugin that provides external storage path and external public storage path.
 
+https://pub.dev/packages/ext_storage
+
 ## Features
 
 > **NOTE** This plugin is only supported Android.
