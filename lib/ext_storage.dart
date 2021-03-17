@@ -30,14 +30,14 @@ class ExtStorage {
 
   static final String DIRECTORY_AUDIOBOOKS = "Audiobooks";
 
-  static Future<String> getExternalStorageDirectory() async {
+  static Future<String?> getExternalStorageDirectory() async {
     if (!Platform.isAndroid) {
       throw UnsupportedError("Only android supported");
     }
     return await _channel.invokeMethod('getExternalStorageDirectory');
   }
 
-  static Future<String> getExternalStoragePublicDirectory(String type) async {
+  static Future<String?> getExternalStoragePublicDirectory(String type) async {
     if (!Platform.isAndroid) {
       throw UnsupportedError("Only android supported");
     }
