@@ -5,7 +5,7 @@ author: yasukotelin <yasukotelin@gmail.com>
 homepage: https://github.com/yasukotelin/ext_storage
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
