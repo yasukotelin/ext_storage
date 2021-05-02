@@ -41,6 +41,18 @@ dependencies:
   ext_storage:
 ```
 
+for null safe issue use this
+
+```yaml
+dependencies:
+  ext_storage:
+    git:
+      url: git://github.com/Aduyrat/ext_storage.git
+      ref: master
+```
+
+
+
 and run the `flutter pub get` to install.
 
 ## Usage
