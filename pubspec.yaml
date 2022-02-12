@@ -1,7 +1,6 @@
 name: ext_storage
 description: ext_storage is minimal flutter plugin that provides external storage path and external public storage path.
-version: 1.0.3
-author: yasukotelin <yasukotelin@gmail.com>
+version: 1.0.4
 homepage: https://github.com/yasukotelin/ext_storage
 
 environment:
@@ -16,6 +15,9 @@ dev_dependencies:
     sdk: flutter
   flutter_driver:
     sdk: flutter
+
+platforms:
+  android:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
