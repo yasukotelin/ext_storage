@@ -1,5 +1,14 @@
 # ext_storage
 
+> **DEPRECATED this plugin**
+> ### why?
+> - [getExternalStorageDirectory](https://developer.android.com/reference/android/os/Environment#getExternalStorageDirectory()) and [getExternalPublicStorageDirectory](https://developer.android.com/reference/android/os/Environment#getExternalStoragePublicDirectory(java.lang.String)) is deprecated in [API level 29](https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels).
+> - Since [path_provider](https://pub.dev/packages/path_provider) supports it, you may be able to use it instead.
+> - not supported null safty
+> - not upgrating pre 1.12 Android projects and old apis.
+
+---
+
 ext_storage is minimal flutter plugin that provides external storage path and external public storage path.
 
 https://pub.dev/packages/ext_storage
