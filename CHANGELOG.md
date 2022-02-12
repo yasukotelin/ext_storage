@@ -1,3 +1,7 @@
+## 1.0.4
+
+* Deprecated this plugin. see issue [#20](https://github.com/yasukotelin/ext_storage/issues/20).
+
 ## 1.0.3
 
 * Fix the download path.
